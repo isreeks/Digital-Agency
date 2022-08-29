@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto';
+}
+
+body {
+    background-image: url("/images/backcover.svg");
+    background-position: right top; 
+    background-repeat: no-repeat; 
+ }
+
+ .main-div{
+    padding: 50px;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .nav-items{
+    display: flex;
+ }
+
+ .nav-item{
+    color: #120E43;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px 20px;
+ }
+
+ .signin-btn{
+    background: linear-gradient(to right,#9F2BC1, #f178a3);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 800;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+
+ .intro-section{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .left-section{
+    margin-top: auto;
+    margin-bottom: auto;
+ }
+
+ .left-section h1{
+    color: #383CC1;
+    font-size: 80px;
+
+ }
+ .left-section h4{
+    color: grey;
+    font-size: larger;
+    font-weight: 500;
+ }
+
+ .learn-more-btn{
+    background: linear-gradient(to right,#9F2BC1, #f178a3);
+    border: none;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+
