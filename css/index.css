@@ -17,7 +17,10 @@ body {
     justify-content: space-between;
  }
  nav .fa-bars {
+   margin: auto 0;
     display: none;
+    /* color: #fff; */
+    font-size: 30px;
   }
  
 
@@ -45,7 +48,7 @@ body {
 
  .intro-section{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
  }
 
  .left-section{
@@ -60,7 +63,7 @@ body {
  }
  .left-section h4{
     color: grey;
-    font-size: larger;
+    font-size: 20px;
     font-weight: 500;
  }
 
@@ -77,6 +80,7 @@ body {
 
 
  @media only screen and (max-width: 1024px) {
+
     nav .fa-bars {
       display: block;
     }
@@ -85,16 +89,16 @@ body {
       display: none;
     }
     .imgs-div img[alt='intro-img'] {
-        width: 65%;
+        width: 100%;
         z-index: -1;
       }
   }
   @media only screen and (max-width: 768px) {
-    .left-section {
-      width: 80%;
+   .left-section {
+      width: 100%;
     }
     .imgs-div img[alt='intro-img'] {
-        width: 70%;
+        width: 80%;
       }
     .learn-more-btn{
         padding: 10px 20px;
